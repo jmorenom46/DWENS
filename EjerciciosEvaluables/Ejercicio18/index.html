@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 18 - FizzBuzz</title>
+</head>
+<body>
+    <?php
+        // Bucle para mostrar los números del 1 al 100
+        for ($i = 1; $i <= 100; $i++) {
+            // Verificar si es múltiplo de 3 y 5 (15)
+            if ($i % 15 == 0) {
+                echo "FizzBuzz<br>";
+            }
+            // Verificar si es múltiplo de 3
+            elseif ($i % 3 == 0) {
+                echo "Fizz<br>";
+            }
+            // Verificar si es múltiplo de 5
+            elseif ($i % 5 == 0) {
+                echo "Buzz<br>";
+            }
+            // Si no es múltiplo ni de 3 ni de 5, mostrar el número
+            else {
+                echo $i . "<br>";
+            }
+        }
+    ?>
+</body>
+</html>

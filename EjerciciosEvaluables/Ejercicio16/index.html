@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <?php
+        // Usar un bucle do-while para simular las tiradas del dado
+        do {
+            $numero = rand(1, 6);  // Generar un número aleatorio entre 1 y 6
+            echo "Resultado: $numero <br>";
+        } while ($numero != 6);  // Continuar hasta obtener un 6
+
+        // Mensaje fuera del do-while
+        echo "El bucle ha terminado.";
+    ?>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+    <?php
+        // Declarar la variable $diaSemana
+        $diaSemana = rand(1, 7);
+        
+        // Usar if - else para mostrar el día de la semana
+        if ($diaSemana == 1) {
+            echo "Lunes";
+        } elseif ($diaSemana == 2) {
+            echo "Martes";
+        } elseif ($diaSemana == 3) {
+            echo "Miércoles";
+        } elseif ($diaSemana == 4) {
+            echo "Jueves";
+        } elseif ($diaSemana == 5) {
+            echo "Viernes";
+        } elseif ($diaSemana == 6) {
+            echo "Sábado";
+        } elseif ($diaSemana == 7) {
+            echo "Domingo";
+        } else {
+            echo "Número no válido";
+        }
+    ?>
+</body>
+</html>

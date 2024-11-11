@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 13</title>
+  </head>
+  <body>
+    <?php
+        // Declarar la variable $diaSemana
+        $diaSemana = rand(1, 7);  
+        
+        // Utilizamos switch para determinar el día
+        switch ($diaSemana) {
+            case 1:{
+                echo "Lunes";
+                break;
+            }
+            case 2:{
+                echo "Martes";
+                break;
+            }
+            case 3:{
+                echo "Miércoles";
+                break;
+            }
+            case 4:{
+                echo "Jueves";
+                break;
+            }
+            case 5:{
+                echo "Viernes";
+                break;
+            }
+            case 6:{
+                echo "Sábado";
+                break;
+            }
+            case 7:{
+                echo "Domingo";
+                break;
+            }
+            default:{
+                echo "Número no válido";
+                break;
+            }  
+        }
+    ?>
+  </body>
+</html>

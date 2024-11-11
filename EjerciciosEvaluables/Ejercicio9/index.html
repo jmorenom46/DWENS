@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 9</title>
+  </head>
+  <body>
+    <?php
+        // Declarar las variables booleanas
+        $esEstudiante = true;
+        $esMayorEdad = false;
+        
+        // Verificar si es un estudiante o mayor de edad
+        if ($esEstudiante || $esMayorEdad) {
+            echo "Es un estudiante o es mayor de edad.";
+        } else {
+            echo "No es un estudiante ni mayor de edad.";
+        }
+        // Verificar si es un estudiante mayor de edad
+        if ($esEstudiante && $esMayorEdad) {
+            echo "Es un estudiante mayor de edad.";
+        } else {
+            echo "No es un estudiante mayor de edad.";
+        }
+    ?>
+  </body>
+</html>
